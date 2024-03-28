@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(171, 171, 171);
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  margin: auto;
+  width: 700px;
+}
+.main {
+  border: 3px solid white;
+  display: inline-block;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  background-color: RGB(46, 57, 76);
+}
+
+h2 {
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.selectmove {
+  height: 100px;
+}
+.showmove {
+  height: 35px;
+  margin-top: 10px;
+}
+
+.move-button {
+  background-color: transparent;
+  border-radius: 75px;
+  border: 2px solid white;
+  margin-right: 40px;
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+.jsresult {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.jsmove,
+.jsscore {
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.reset {
+  background-color: rgb(184, 181, 181);
+  border: none;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 3px;
+  width: 30%;
+  margin-left: 200px;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.reset:hover {
+  background-color: rgb(255, 21, 21);
+  color: wheat;
+}
